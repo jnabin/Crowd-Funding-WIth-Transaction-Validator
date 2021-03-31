@@ -1,1 +1,1 @@
-user with type 2 are the validators,, as a immutable function i have use class with private property
+user with type 2 are the validators,, as a immutable function i have use class with private property. The node version are used as validator. The laravel version is used as main system. There is macro service also from laravel to node application
