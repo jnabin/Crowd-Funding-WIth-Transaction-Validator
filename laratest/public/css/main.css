@@ -1,0 +1,23 @@
+*{
+    margin: 2px;
+}
+body{
+    color:#47473b;
+    background-color: #f2f2ed;
+}
+img{
+    width: 40%;
+    height: 100px;
+}
+.b:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.c{
+    background:#f2f2ed;
+}
+.xxx{
+    background-color: rgb(30, 116, 37);
+}
+
+

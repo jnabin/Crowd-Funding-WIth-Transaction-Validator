@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="/assets/styles/mystyle.css">
+	</head>
+	<body>
+		<div class="text-center">
+			<h1 class="header">Update Entity</h1>
+		</div>
+		<!--menu starts-->
+		<div class="text-center">
+            <a href="/home/index" class="btn btn-primary">All Pending Entity</a>
+            <a href="/logout" class="btn btn-danger">Logout</a>
+        </div>
+
+        <div class="center">
+            <h1 class="text text-center">Entity's Information</h1>
+            <div class="form-group">
+                <h4 class="text">Title : <%= title %> </h4> 
+            </div>
+
+            <div class="form-group">
+                <h4 class="text">target_fund : <%= ctype %> </h4> 
+            </div>
+
+            <div class="form-group">
+                <h4 class="text">ctype : <%= ctype %> </h4> 
+            </div>
+
+            <div class="form-group">
+                <h4 class="text">issueDate : <%= issueDate %> </h4> 
+            </div>
+
+            <div class="form-group">
+                <h4 class="text">userid : <%= userid %> </h4> 
+            </div>
+            <div class="form-group">
+                <h4 class="text">identity : <%= identity %> </h4> 
+            </div>
+
+            <div class="form-group text-center">  
+                <a href="/api/allPendingEntity" class="btn btn-warning" value="back">Back</a>
+                <a href="/api/approve/<%= id %>" class="btn btn-success">Approve Entity</a>
+                <a href="/api/reject/<%= id %>" class="btn btn-danger">Reject Entity</a>
+            </div>
+        </div>   
+	</body>
+</html> 

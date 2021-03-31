@@ -1,0 +1,1 @@
+user with type 2 are the validators,, as a immutable function i have use class with private property
